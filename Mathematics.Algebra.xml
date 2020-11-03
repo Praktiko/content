@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<ProblemTemplateRepo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MajorVersion>1</MajorVersion>
+	<MinorVersion>0</MinorVersion>
+	<ProblemTemplates>
+		<ProblemTemplate id="2.1.02.">
+			<Guid>d1b48c21-1d15-4078-8b7e-d2a3e4fd856a</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-algebra</string>
+				<string>subcategory-think-and-calculate</string>
+				<string>class-hungary-7</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>8</MinValue>
+					<MaxValue>36</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">var sum=0; for (int i=0; i&lt;{a}; i++) { sum += i; } return sum;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a} % 2 == 0);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Egy autóbusz útvonalán {a} megálló van. Egy járat során nem volt két olyan ember, aki ugyanott szállt föl és le, vagyis bármelyik két utas különböző utat tett meg.&lt;br /&gt;Legfejlebb hányan utazhattak a buszon ezzel a járattal?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{sum.ToString("0")} utas</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{sum.ToString("0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2.1.03.b">
+			<Guid>f3614817-859c-4260-a838-0a1f05b4a344</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-algebra</string>
+				<string>subcategory-think-and-calculate</string>
+				<string>class-hungary-7</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>120</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>150</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{x}</Name>
+					<ValueCalculation type="C#">var sum = 0;for (double i={a}; i&lt;={b}; i++) { sum += i.ToString("0").Length; } return sum;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {a} + 30 &lt; {b};</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Hány számjegyet kell leírnunk, ha {a}-től {b}-ig leírjuk a pozitív egész számokat?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{x.ToString("0")} db</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{x.ToString("0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="1487">
+			<Guid>dd31b220-8948-4861-a637-9b24ed22f5cc</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-algebra</string>
+				<string>subcategory-equation-solving</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>-9</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>5</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>2</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{d}</Name>
+					<MinValue>-9</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{e}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>4</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{f}</Name>
+					<MinValue>-9</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>2</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{g}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{h}</Name>
+					<MinValue>-9</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{x1}</Name>
+					<ValueCalculation type="C#">return (0-{b})/{a};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{x2}</Name>
+					<ValueCalculation type="C#">return (0-{d})/{c};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a} % 2 == 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{equation}</Name>
+					<Text type="MathML">/Mathematics.Algebra/1487/Equation.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Oldjuk meg a következő egyenletet:&lt;br /&gt;{equation}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text type="HTML">x = {x1.ToString("0")} vagy x = {x2.ToString("0")} vagy ...</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="8824">
+			<Guid>8f3a4b81-993e-4fb5-b667-9f1a1a5bbf35</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-algebra</string>
+				<string>subcategory-equation-solving</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-easy</string>
+				<string>one-step-integer-equation</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>6</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>80</MaxValue>
+					<ValueStep>2.5</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{x}</Name>
+					<ValueCalculation type="C#">return (300-{b})/{a};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return (Math.Floor({b}/{a}) == {b}/{a}) &amp;&amp; ({b} > {a} * 5);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{equation}</Name>
+					<Text type="MathML">/Mathematics.Algebra/8824/Equation.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Mi az x értéke?&lt;br /&gt;{equation}</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text>What's the value of x?&lt;br /&gt;{equation}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>x = {x.ToString("0.0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="8825">
+			<Guid>a6a8801c-67f9-443f-9d74-21f90cdc4051</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-algebra</string>
+				<string>subcategory-equation-solving</string>
+				<string>one-step-integer-equation</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>8</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>13</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>7</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c_s1}</Name>
+					<ValueCalculation type="C#">return {c} - {b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{y}</Name>
+					<ValueCalculation type="C#">return {c_s1} / {a};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {a} != 0;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{equation}</Name>
+					<Text type="MathML">/Mathematics.Algebra/8825/Equation.mathml</Text>
+				</TextSnippet>
+				<TextSnippet>
+					<Name>{equation_s1}</Name>
+					<Text type="MathML">/Mathematics.Algebra/8825/Equation_s1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Mi az y értéke?&lt;br /&gt;{equation}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{equation_s1}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>y = {y.ToString("0.0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="8826">
+			<Guid>e179e915-2a32-4fe9-b0a7-f2428e1c9b7c</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-algebra</string>
+				<string>subcategory-equation-solving</string>
+				<string>one-step-integer-equation</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>-99</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>11</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>7</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>-99</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>13</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{z}</Name>
+					<ValueCalculation type="C#">return ({c}-{b})/{a};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {a} != 0;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{equation}</Name>
+					<Text>/Mathematics.Algebra/8826/Equation.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Mi az z értéke?&lt;br /&gt;{equation}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>z = {z.ToString("0.0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+	</ProblemTemplates>
+</ProblemTemplateRepo>

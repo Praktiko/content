@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-355.56 26.126 279.178 196.24" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Concert One">@font-face { font-family: "Concert One"; font-style: normal; font-weight: 400; font-stretch: normal; font-unicode-range: U+0-10FFFF; font-variant: normal; font-feature-settings: normal; src: url(https://fonts.gstatic.com/s/concertone/v10/VEM1Ro9xs5PjtzCu-srDqRTlhv-CuVAQ.ttf); }</style>
+  </defs>
+  <line style="stroke: rgb(0, 0, 0);" x1="-345.5597304366131" y1="212.36581625149688" x2="-141.66703502293535" y2="212.36581625149688"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-140.81043517951326" y1="212.36581625149688" x2="-140.81043517951326" y2="91.81089995417649"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-141.24239571803037" y1="90.98490492819509" x2="-344.2863646644174" y2="90.98490492819506"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-344.26384882106186" y1="87.96118115857549" x2="-344.26384882106186" y2="211.74633030567674"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-140.37847464099622" y1="90.12098385116091" x2="-88.97517055746272" y2="40.0135613831787"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-139.514553563962" y1="211.50189517446273" x2="-88.75873075779663" y2="160.7460723682973"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-345.5597304366131" y1="88.82510223560966" x2="-293.93728328974333" y2="37.20265508873989"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-292.86054473752836" y1="36.98983761355906" x2="-86.38159996800039" y2="36.98983761355906"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="-86.38340732636016" y1="36.12591653652488" x2="-86.38340732636016" y2="159.6673857258707"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-dasharray: 4px;" x1="-343.8318882825448" y1="211.50189517446273" x2="-294.58649236427505" y2="162.25649925619297"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-dasharray: 4px;" x1="-295.45230796863086" y1="162.25839378351463" x2="-86.76126802061486" y2="162.25839378351463"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-dasharray: 4px;" x1="-295.0203474301138" y1="162.25839378351463" x2="-295.0203474301138" y2="37.41507230411467"/>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Concert One&quot;; font-size: 28px; white-space: pre;" x="-241.473" y="126.918">{a}</text>
+</svg>

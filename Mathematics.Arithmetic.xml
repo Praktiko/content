@@ -1,0 +1,1084 @@
+<?xml version="1.0"?>
+<ProblemTemplateRepo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MajorVersion>1</MajorVersion>
+	<MinorVersion>0</MinorVersion>
+	<ProblemTemplates>
+		<ProblemTemplate id="#000010">
+			<Guid>b99a203f-3eba-4ca1-a1d0-f7aeb6132975</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} + {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{basic-addition-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000010/Basic-Addition-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{basic-addition-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000020">
+			<Guid>ccee6624-bf80-4663-9370-c74c112b85f8</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {sum} > 0;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{basic-subtraction-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000020/Basic-Subtraction-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{basic-subtraction-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000030">
+			<Guid>7a8ac09c-5c6a-4213-b6f7-6c7be60a5c7a</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} + {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &lt; 100) &amp;&amp; (({a} % 10 + {b} % 10) &lt; 10) &amp;&amp; (({a} / 10 + {b} / 10) &lt; 10);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{adding-two-digit-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000030/Adding-two-digit-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{adding-two-digit-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000040">
+			<Guid>68877645-2995-4af6-9b3a-c3e094d6cb16</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>19</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>19</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {sum} > 0;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{subtraction-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000040/Subtraction-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtraction-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000050">
+			<Guid>f4be2e64-1a36-4576-85ef-e325f12ff4f1</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &gt; 0) &amp;&amp; ({sum} &lt; 100) &amp;&amp; (({a} % 10 - {b} % 10) &gt; 0) &amp;&amp; (({a} / 10 - {b} / 10) &gt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{subtracting-two-digit-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000050/Subtracting-two-digit-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-two-digit-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000060">
+			<Guid>86d201e9-b318-4f36-9a91-0822a1ee3fef</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} + {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &lt; 100) &amp;&amp; (({a} % 10 + {b}) &gt; 10);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{level-2-addition-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000060/Level-2-addition-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-2-addition-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000070">
+			<Guid>05996439-86e5-4745-a432-4adff5654f80</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>49</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>33</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} + {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &lt; 1000);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{level-3-addition-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000070/Level-3-addition-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-3-addition-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000080">
+			<Guid>30abb85a-f557-47b9-a582-d13de7a8f3c8</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999</MaxValue>
+					<ValueStep>357</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>9999</MaxValue>
+					<ValueStep>462</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} + {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &lt; 10000);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{level-3-addition-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000080/Level-3-addition-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-3-addition-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000090">
+			<Guid>ad7ea42d-c833-4435-9aad-3e6109943677</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10000000</MinValue>
+					<MaxValue>99999999</MaxValue>
+					<ValueStep>5009928</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1000000</MinValue>
+					<MaxValue>9999999</MaxValue>
+					<ValueStep>647850</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} + {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &lt; 1000000000);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{level-3-addition-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000090/Level-3-addition-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-3-addition-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000095">
+			<Guid>40bad600-164f-472a-858f-f257d693db89</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-advanced</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &gt; 0) &amp;&amp; ({sum} &lt; 100) &amp;&amp; (({a} % 10 - {b} % 10) &lt; 0) &amp;&amp; (({a} / 10 - {b} / 10) &gt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{subtracting-two-digit-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000095/Subtracting-two-digit-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-two-digit-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000100">
+			<Guid>1b89d77e-5163-4764-bda3-908c5446a5b1</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-advanced</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>500</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>4</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>34</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &gt; 99) &amp;&amp; ({sum} &lt; 10000) &amp;&amp; (({a} % 10 - {b} % 10) &lt; 0) &amp;&amp; ((({a} / 10) % 10 - ({b} / 10) % 10) &lt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{subtracting-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000100/Subtracting-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000110">
+			<Guid>6ef31246-0fb4-4bcb-accf-da6650ae93f5</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-advanced</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999</MaxValue>
+					<ValueStep>28</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>14</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &gt; 99) &amp;&amp; ({sum} &lt; 1000) &amp;&amp; (({a} % 10 - {b} % 10) &lt; 0) &amp;&amp; ((({a} / 10) % 10 - ({b} / 10) % 10) &lt; 0) &amp;&amp; ((({a} / 100) % 10 - ({b} / 100) % 10) &lt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{subtracting-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000110/Subtracting-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000170">
+			<Guid>fc552a95-3836-43fb-8c63-6399c1023d10</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-addition-and-subtraction</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-advanced</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>51</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>7</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sum}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({sum} &gt; 99) &amp;&amp; ({sum} &lt; 1000) &amp;&amp; (({a} % 10 - {b} % 10) &lt; 0) &amp;&amp; ((({a} / 10) % 10 - ({b} / 10) % 10) &lt; 0);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Egy zöldségesnek {a} db paradicsoma van. Ebből három nap alatt elad {b} db-ot.&lt;br /&gt;Hány paradicsoma marad a harmadik nap végére?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sum}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000190">
+			<Guid>92b4d0b6-1f69-4ddb-a97f-f1e97039783d</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>3</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>3</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mul}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplying-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000190/Multiplying-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a szórzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{mul}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000195">
+			<Guid>d715cab5-b947-4fff-a92f-e09dc65441ac</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>10</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>2</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mul}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplying-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000195/Multiplying-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a szórzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{mul}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000200">
+			<Guid>b2c61c21-a9af-48f3-9d55-7632b30ad23a</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>10</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>10</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mul}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplying-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000200/Multiplying-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a szórzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{mul}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000220">
+			<Guid>6bc30efe-4316-4445-87ef-6932a957dd53</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>10</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mul}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplying-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000220/Multiplying-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a szórzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{mul}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
+		<ProblemTemplate id="#000230">
+			<Guid>d10fe7f4-2f76-471d-8789-779c43c16b7d</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a} >= {b});</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000230/Dividing-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div}, maradék {mod}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
+		<ProblemTemplate id="#000240">
+			<Guid>fbe6d0e3-1fc9-4e4d-bd65-53d69552ddda</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>4</MinValue>
+					<MaxValue>19</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>19</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">{a} dobozt szeretnénk {b} egyelő részre elkülöníteni. Hány doboz kell, hogy legyen egy-egy részben?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{div}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
+		<ProblemTemplate id="#000250">
+			<Guid>100867b8-9dbe-47ad-b6c1-e66e220c1673</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>4</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>25</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplication-with-substitution-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000250/Multiplication-with-substitution-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Hányszorosa a {b}-nek a(z) {a}?&lt;br /&gt;{multiplication-with-substitution-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{div}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000260">
+			<Guid>488fc47e-f69c-4a2e-be44-37a87441a9e0</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{name_1}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>3</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{name_2}</Name>
+					<MinValue>4</MinValue>
+					<MaxValue>7</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{name_3}</Name>
+					<MinValue>8</MinValue>
+					<MaxValue>11</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>				
+				<Variable>
+					<Name>{mul_2}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mul_3}</Name>
+					<ValueCalculation type="C#">return {mul_2} * {c};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({b} != {c}) &amp;&amp; ({mul_2} &lt; 100) &amp;&amp; ({mul_3} &lt; 100);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">{Names[{name_2}]} {b}-szer annyi idős, mint {Names[{name_1}]}. {Names[{name_1}]} {a} éves. {Names[{name_3}]} {c}-szer annyi idős, mint {Names[{name_2}]}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{Names[{name_3}]} {mul_3} éves, {Names[{name_2}]} pedig {mul_2} éves.</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+	</ProblemTemplates>
+</ProblemTemplateRepo>

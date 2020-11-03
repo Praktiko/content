@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<ProblemTemplateRepo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MajorVersion>1</MajorVersion>
+	<MinorVersion>0</MinorVersion>
+	<ProblemTemplates>
+		<ProblemTemplate id="2001/6/B-2 1.">
+			<Guid>7274d3d1-9673-4418-bd4e-a76ee6aa6e28</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2001</string>
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>3</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>40</MinValue>
+					<MaxValue>190</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{weight}</Name>
+					<ValueCalculation type="C#">return ({b} / ({a} - 1)) * {a};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {b} % ({a} - 1) == 0;</VariableValidator>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">A jéghegyeknek csak 1/{a} része van a vízfelszín felett. Hány tonnás az a jéghegy, amelynek víz alatti része {b} tonna tömegű?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{weight.ToString("0")} tonna</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{weight.ToString("0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2001/6/B-2 2.">
+			<Guid>74e54319-c84d-4129-852a-37b213f4a417</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2001</string>				
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>3</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>4</MinValue>
+					<MaxValue>7</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>8</MinValue>
+					<MaxValue>11</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{d}</Name>
+					<MinValue>12</MinValue>
+					<MaxValue>15</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({a} != {c}) &amp;&amp; ({a} != {d}) &amp;&amp; ({b} != {c}) &amp;&amp; ({b} != {d}) &amp;&amp; ({c} != {d});</VariableValidator>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Egy versenyről {Names[{a}]}, {Names[{b}]}, {Names[{c}]} és {Names[{d}]} így számolt be: &lt;br /&gt;{Names[{a}]}: {Names[{b}]} lett a győztes.&lt;br /&gt;{Names[{b}]}: {Names[{c}]} nyerte a versenyt.&lt;br /&gt;{Names[{c}]}: Sajnos, nem én nyertem.&lt;br /&gt;{Names[{d}]}: Nem én lettem az első.&lt;br /&gt;Tudjuk, hogy csak egyikük mondott igazat, hárman hamisat állítottak.&lt;br /&gt;Ki lett a győztes ezen a versenyen?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{Names[{d}]} lett a győztes</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{Names[{d}]}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2001/6/B-2 3.">
+			<Guid>7747d8ec-b7ea-48c6-87ba-3bd7f33e9c0e</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2001</string>				
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>3</MinValue>
+					<MaxValue>8</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>15</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{height}</Name>
+					<ValueCalculation type="C#">return ({b}/({a}-1))*{a};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({b} % ({a} - 1)) == 0;</VariableValidator>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Csiga Béla és Csiga Boglárka elhatározták, felmásznak két szomszédos, függőlegesen álló, egyenes nádszálra, hogy többet lássanak a világból. Egy idő múlva Boglárka rémülten észlelte, hogy Béla már sokkal magasabbra jutott. Béla a földtől számítva {a}-ször akkora utat tett meg, mint ő, és így éppen {b} deciméterrel előzte meg őt. Hány deciméterre volt ekkor a földtől Béla?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{height} deciméterre</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{height}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2001/6/B-2 4.">
+			<Guid>c7732859-7e29-4899-9f1b-aef1978b3824</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2001</string>				
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>20</MinValue>
+					<MaxValue>120</MaxValue>
+					<ValueStep>10</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{answera}</Name>
+					<ValueCalculation type="C#">return {a}/10;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{answerb}</Name>
+					<ValueCalculation type="C#">return ({a}/10) * 3;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#"/>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Egy asztalosműhelyben minden műszakban kétszerannyi háromlábú asztalt gyártanak, mint négylábút. Egy műszak (nyolc óra) alatt {a} db asztalláb és a hozzájuk szükséges asztallap készül el.&lt;br /&gt;a, Egy műszak alatt hány darab négylábú asztalt készítenek?&lt;br /&gt;b, Egy műszak alatt hány darab asztallapot készítenek összesen?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>a, {answera} négylábú asztalt</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>a, {answera}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>b, {answerb} asztallapot</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>b, {answerb}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2001/6/B-2 5.">
+			<Guid>5f1df253-317a-43d1-970e-75de1dc1b18d</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2001</string>				
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>6</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mincount}</Name>
+					<ValueCalculation type="C#">return (({a} - 1) * 7) + 1;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#"/>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Legalább hány fős az a baráti társaság, amelyben biztosan van {a} olyan ember, akik a hét ugyanazon napján születtek?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{mincount} fős</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{mincount}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2001/6/B-2 6.">
+			<Guid>f955d06c-0cf4-42bf-8f2f-a087c9059387</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2001</string>				
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>20</MinValue>
+					<MaxValue>80</MaxValue>
+					<ValueStep>10</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{istruea}</Name>
+					<ValueCalculation type="C#">return 0;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{istrueb}</Name>
+					<ValueCalculation type="C#">return 1;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{istruec}</Name>
+					<ValueCalculation type="C#">return 0;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{istrued}</Name>
+					<ValueCalculation type="C#">return 1;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{istruee}</Name>
+					<ValueCalculation type="C#">return 0;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#"/>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">{Names[{a}]} bélyeget gyűjt. Kétféle albuma van, az egyik típusúba 40, a másik típusúba 100 bélyeg fér. {Names[{a}]}nak 540 bélyege van, amivel minden albuma éppen betelt.&lt;br /&gt;Döntsd el, hogy az alábbi állítások közül melyik lehet {TrueFalse[0]} és melyik {TrueFalse[1]}, és írd le a betűjelét!&lt;br /&gt;(A) Biztos, hogy {Names[{a}]}nak 5 darab 100 bélyeges albuma van.&lt;br /&gt;(B) Lehet, hogy {Names[{a}]}nak 6 darab 40 bélyeges albuma van.&lt;br /&gt;(C) Biztos, hogy {Names[{a}]}nak 11 darab 40 bélyeges albuma van.&lt;br /&gt;(D) Lehet, hogy {Names[{a}]}nak összesen 9 albuma van.&lt;br /&gt;(E) Lehetetlen, hogy {Names[{a}]}nak 10-nél több albuma van.</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>(A) {TrueFalse[{istruea}]}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>(B) {TrueFalse[{istrueb}]}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>(C) {TrueFalse[{istruec}]}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>(D) {TrueFalse[{istrued}]}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>(E) {TrueFalse[{istruee}]}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="2004/6/M-1 8.">
+			<Guid>a675e4e9-ceee-457d-a79e-3648d0b7efec</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-matriculation</string>
+				<string>subcategory-matriculation-2004</string>				
+				<string>matriculation-hungary-6</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>36</MinValue>
+					<MaxValue>72</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{minvolume}</Name>
+					<ValueCalculation type="C#">return 0;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {a} % 36 == 0;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{box}</Name>
+					<Text type="SVG">/Mathematics.Matriculation/2004-6-M-1-8/Box.svg</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Egy téglatest élei centiméterben mérve különböző egész számok. Ha összeadjuk az összes élek hosszát, {a} cm-t kapunk. Milyen méretű élei lehetnek egy ilyen téglatestnek? Hány cm3 a térfogata a legkisebb ilyen téglatestnek?&lt;br /&gt;{box}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{minvolume.ToString("0")}</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{minvolume.ToString("0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+	</ProblemTemplates>
+</ProblemTemplateRepo>

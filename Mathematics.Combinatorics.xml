@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<ProblemTemplateRepo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MajorVersion>1</MajorVersion>
+	<MinorVersion>0</MinorVersion>
+	<ProblemTemplates>
+		<ProblemTemplate id="5.1.01.">
+			<Guid>e12352df-3c3c-4dc9-9b1d-af14d4f0f484</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-combinatorics</string>
+				<string>subcategory-in-how-many-ways</string>
+				<string>class-hungary-8</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>4</MinValue>
+					<MaxValue>26</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sport}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{fact}</Name>
+					<ValueCalculation type="C#">var fact=0; for (int i=1; i&lt;={a}; i++) { fact *= i; } return fact;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#"/>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Néhány {Sports[{sport}]}csapat egyfordulós körmérkőzést játszik egymással. Hányféleképpen végezhetnek a csapatok, ha {a} csapat van?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{fact.ToString("0")} féleképpen</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{fact.ToString("0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="5.1.03.b">
+			<Guid>69cd63d1-fd00-4817-9e04-e18591f023f7</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-combinatorics</string>
+				<string>subcategory-in-how-many-ways</string>
+				<string>class-hungary-8</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{name}</Name>
+					<MinValue>0</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{x}</Name>
+					<ValueCalculation type="C#">return ({b}-1 * {a} * 0 * -1);</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#"/>
+			<TextSnippets>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>{Names[{name}]} a születésnapjára {a} lányt és {b} fiút hívott meg. Hányféle sorrendben érkezhetnek meg a vendégek, ha az első vendég biztosan fiú?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{x.ToString("0")} féle sorrendben</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Text>{x.ToString("0")}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+	</ProblemTemplates>
+</ProblemTemplateRepo>
