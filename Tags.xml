@@ -39,6 +39,20 @@
 			</Name>
 		</TagDefinition>
 		<TagDefinition>
+			<Guid>9cd7117b-81bf-4485-88a1-e834a48efa55</Guid>
+			<Id>category-arithmetic-description</Id>
+			<Category>description</Category>
+			<ParentTags>
+				<guid>4cb78217-077e-4925-ab7d-cada5f31074d</guid>
+			</ParentTags>
+			<Name>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Véges számokkal, tizedestörtekkel való számolás; hosszúsági, területi és térfogati mértékegységek.</Text>
+				</LocalizedText>
+			</Name>
+		</TagDefinition>
+		<TagDefinition>
 			<Guid>0b6ab301-b3f7-47c4-87d5-be3a095bcfe8</Guid>
 			<Id>category-algebra</Id>
 			<Category>category</Category>
