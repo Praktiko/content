@@ -1035,24 +1035,6 @@
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
-					<Name>{name_1}</Name>
-					<MinValue>0</MinValue>
-					<MaxValue>3</MaxValue>
-					<ValueStep>1</ValueStep>
-				</Variable>
-				<Variable>
-					<Name>{name_2}</Name>
-					<MinValue>4</MinValue>
-					<MaxValue>7</MaxValue>
-					<ValueStep>1</ValueStep>
-				</Variable>
-				<Variable>
-					<Name>{name_3}</Name>
-					<MinValue>8</MinValue>
-					<MaxValue>11</MaxValue>
-					<ValueStep>1</ValueStep>
-				</Variable>				
-				<Variable>
 					<Name>{mul_2}</Name>
 					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
 				</Variable>
@@ -1066,7 +1048,7 @@
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">{Names[{name_2}]} {b}-szer annyi idős, mint {Names[{name_1}]}. {Names[{name_1}]} {a} éves. {Names[{name_3}]} {c}-szer annyi idős, mint {Names[{name_2}]}</Text>
+					<Text type="HTML">{Names["Bob"]} {b}-szer annyi idős, mint {Names["Alice"]}. {Names["Alice"]} {a} éves. {Names["Charlie"]} {c}-szer annyi idős, mint {Names["Bob"]}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
@@ -1074,7 +1056,7 @@
 					<Presentation>
 						<LocalizedText>
 							<Culture>hu-HU</Culture>
-							<Text>{Names[{name_3}]} {mul_3} éves, {Names[{name_2}]} pedig {mul_2} éves.</Text>
+							<Text>{Names["Charlie"]} {mul_3} éves, {Names["Bob"]} pedig {mul_2} éves.</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
