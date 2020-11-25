@@ -13,6 +13,13 @@
 			<Name>Mathematics.Algebra</Name>
 			<Filename>Mathematics.Algebra.xml</Filename>
 			<HideInProduction>true</HideInProduction>
+			<Prices>
+				<Price>
+					<Culture>hu-HU</Culture>
+					<Amount>3000</Amount>
+					<Currency>HUF</Currency>
+				</Price>			
+			</Prices>
 		</Package>
 		<Package>
 			<Order>3</Order>

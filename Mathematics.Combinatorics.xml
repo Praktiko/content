@@ -76,12 +76,6 @@
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
-					<Name>{name}</Name>
-					<MinValue>0</MinValue>
-					<MaxValue>9</MaxValue>
-					<ValueStep>1</ValueStep>
-				</Variable>
-				<Variable>
 					<Name>{x}</Name>
 					<ValueCalculation type="C#">return ({b}-1 * {a} * 0 * -1);</ValueCalculation>
 				</Variable>
@@ -92,7 +86,7 @@
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text>{Names[{name}]} a születésnapjára {a} lányt és {b} fiút hívott meg. Hányféle sorrendben érkezhetnek meg a vendégek, ha az első vendég biztosan fiú?</Text>
+					<Text>{Names["Alice"]} a születésnapjára {a} lányt és {b} fiút hívott meg. Hányféle sorrendben érkezhetnek meg a vendégek, ha az első vendég biztosan fiú?</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
