@@ -1048,7 +1048,7 @@
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">{Names["Bob"]} {b}-szer annyi idős, mint {Names["Alice"]}. {Names["Alice"]} {a} éves. {Names["Charlie"]} {c}-szer annyi idős, mint {Names["Bob"]}</Text>
+					<Text type="HTML">{Names["Bob"]} {b}-szer annyi idős, mint {Names["Alice"]}. {Names["Alice"]} {a} éves. {Names["Charlie"]} {c}-szer annyi idős, mint {Names["Bob"]}. {Names["Charlie"]} és {Names["Bob"]} hány évesek?</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
