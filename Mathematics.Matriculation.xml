@@ -63,6 +63,12 @@
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>1</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
 			</Variables>
 			<VariableValidator>
 			</VariableValidator>
