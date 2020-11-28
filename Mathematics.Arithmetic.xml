@@ -1056,7 +1056,15 @@
 					<Presentation>
 						<LocalizedText>
 							<Culture>hu-HU</Culture>
-							<Text>{Names["Charlie"]} {mul_3} éves, {Names["Bob"]} pedig {mul_2} éves.</Text>
+							<Text>{Names["Charlie"]} {mul_3} éves, ...</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>... {Names["Bob"]} pedig {mul_2} éves.</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
