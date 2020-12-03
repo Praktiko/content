@@ -2113,7 +2113,7 @@
 					<Name>{points}</Name>
 					<MinValue>100</MinValue>
 					<MaxValue>999</MaxValue>
-					<ValueStep>3</ValueStep>
+					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{games}</Name>
