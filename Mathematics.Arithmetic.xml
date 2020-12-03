@@ -1318,5 +1318,105 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>
+		<ProblemTemplate id="#000340">
+			<Guid>2c0959ea-d98e-4c22-bc9a-220c85cab680</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mul}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mul} &gt; 100) &amp;&amp; ({mul} &lt; 1000);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplying-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000340/Multiplying-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{mul}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000350">
+			<Guid>ab4e6a87-0b18-42fd-86c8-972aa3fede71</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>500</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{mul}</Name>
+					<ValueCalculation type="C#">return {a} * {b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mul} &gt; 1000) &amp;&amp; ({mul} &lt; 10000);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{multiplying-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/000350/Multiplying-numbers-1.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{mul}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>				
 	</ProblemTemplates>
 </ProblemTemplateRepo>
