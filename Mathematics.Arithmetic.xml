@@ -879,7 +879,7 @@
 					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
 				</Variable>
 			</Variables>
-			<VariableValidator type="C#">return ({a} >= {b});</VariableValidator>
+			<VariableValidator type="C#">return ({a} &gt;= {b});</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{dividing-numbers-1}</Name>
