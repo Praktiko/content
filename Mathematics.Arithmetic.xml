@@ -1135,12 +1135,12 @@
 				<Variable>
 					<Name>{distance}</Name>
 					<MinValue>20</MinValue>
-					<MaxValue>100</MaxValue>
+					<MaxValue>70</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{total}</Name>
-					<ValueCalculation type="C#">return {days} * {days};</ValueCalculation>
+					<ValueCalculation type="C#">return {distance} * {days};</ValueCalculation>
 				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return true;</VariableValidator>
