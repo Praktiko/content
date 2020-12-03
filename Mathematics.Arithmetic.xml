@@ -34,7 +34,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{basic-addition-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000010/Basic-Addition-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Adding-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -84,7 +84,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{basic-subtraction-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000020/Basic-Subtraction-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -134,7 +134,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{adding-two-digit-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000030/Adding-two-digit-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Adding-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -184,7 +184,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{subtraction-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000040/Subtraction-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -234,7 +234,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{subtracting-two-digit-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000050/Subtracting-two-digit-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -284,7 +284,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{level-2-addition-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000060/Level-2-addition-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Adding-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -334,7 +334,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{level-3-addition-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000070/Level-3-addition-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Adding-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -384,7 +384,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{level-3-addition-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000080/Level-3-addition-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Adding-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -434,7 +434,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{level-3-addition-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000090/Level-3-addition-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Adding-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -484,7 +484,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{subtracting-two-digit-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000095/Subtracting-two-digit-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -534,7 +534,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{subtracting-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000100/Subtracting-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -584,7 +584,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{subtracting-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000110/Subtracting-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -679,7 +679,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000190/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -729,7 +729,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000195/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -779,7 +779,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000200/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -829,7 +829,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000220/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -883,7 +883,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{dividing-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000230/Dividing-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1249,7 +1249,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000320/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1299,7 +1299,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000330/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1349,7 +1349,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000340/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1399,7 +1399,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000350/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1449,7 +1449,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000360/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1499,7 +1499,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000365/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1549,7 +1549,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000370/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1599,7 +1599,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000380/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1649,7 +1649,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplying-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000390/Multiplying-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Multiplying-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1732,7 +1732,7 @@
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
-					<MinValue>1</MinValue>
+					<MinValue>2</MinValue>
 					<MaxValue>9</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
@@ -1749,7 +1749,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{dividing-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/000420/Dividing-numbers-1.mathml</Text>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
@@ -1769,5 +1769,170 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>		
+		<ProblemTemplate id="#000430">
+			<Guid>5be27d07-3059-4fc7-9b6b-577d3702d529</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} &gt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div} (m: {mod})</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000440">
+			<Guid>1458eee8-adb9-4271-ba1f-6b21a8b353f8</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
+		<ProblemTemplate id="#000450">
+			<Guid>8e5c1f17-01b3-41a4-b0c8-986423caf6bd</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1752196</MinValue>
+					<MaxValue>9999999</MaxValue>
+					<ValueStep>173</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div} (m: {mod})</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>	
 	</ProblemTemplates>
 </ProblemTemplateRepo>
