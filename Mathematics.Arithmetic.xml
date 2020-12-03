@@ -1140,7 +1140,7 @@
 				</Variable>
 				<Variable>
 					<Name>{total}</Name>
-					<ValueCalculation type="C#">return {days} * {b};</ValueCalculation>
+					<ValueCalculation type="C#">return {days} * {days};</ValueCalculation>
 				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return true;</VariableValidator>
