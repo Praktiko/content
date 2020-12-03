@@ -2123,11 +2123,11 @@
 				</Variable>
 				<Variable>
 					<Name>{div}</Name>
-					<ValueCalculation type="C#">return (int){points} / (int)({b} * 3);</ValueCalculation>
+					<ValueCalculation type="C#">return (int){points} / (int)({games} * 3);</ValueCalculation>
 				</Variable>
 				<Variable>
 					<Name>{mod}</Name>
-					<ValueCalculation type="C#">return (int){a} % (int)({b} * 3};</ValueCalculation>
+					<ValueCalculation type="C#">return (int){points} % (int)({games} * 3};</ValueCalculation>
 				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
