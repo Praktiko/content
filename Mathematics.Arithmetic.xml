@@ -2149,5 +2149,65 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>
+		<ProblemTemplate id="#000530">
+			<Guid>3c135905-71cb-418e-a09d-6a1ceda76dca</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{people}</Name>
+					<MinValue>6</MinValue>
+					<MaxValue>18</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{slices}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>6</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{pizzas}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>10</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{slicestoeat}</Name>
+					<ValueCalculation type="C#">return {people} * {slices};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{totalslices}</Name>
+					<ValueCalculation type="C#">return {pizzas} * 12;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{remainingslices}</Name>
+					<ValueCalculation type="C#">return {totalslices} - {slicestoeat};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({remainingslices} &gt;= 0);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Names["Alice"] pizzát rendelt egy házibuliba. Mindegyik pizza 12 szeletes volt, szerette volna, ha mind a {people} jelenlévőnek jut {slices}-{slices} szelet.&lt;br /&gt;Ha {pizzas} pizzát rendelt és mindenki {slices} szeletet evett, hány pizzaszelet maradt gazdátlanul?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{remainingslices} szelet pizza maradt gazdátlanul.</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
 	</ProblemTemplates>
 </ProblemTemplateRepo>
