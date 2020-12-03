@@ -1933,6 +1933,221 @@
 					</Presentation>
 				</SolutionStep>
 			</Solution>
-		</ProblemTemplate>	
+		</ProblemTemplate>
+		<ProblemTemplate id="#000460">
+			<Guid>c9e54526-2f3c-4fbf-bd9b-2a4f5c903008</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000470">
+			<Guid>abdc5703-f07d-4757-83f8-7f160a5095b4</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>99</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} &gt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div} (m: {mod})</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000510">
+			<Guid>2c9fc053-6475-44a3-8457-ee3b44236d0d</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1847223</MinValue>
+					<MaxValue>9999999</MaxValue>
+					<ValueStep>281249</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>142</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>62</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){a} / (int){b};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} &gt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{dividing-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Dividing-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>{div} (m: {mod})</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000520">
+			<Guid>1d88f324-73af-427d-a7ee-29c35cb5ed70</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-multiplication-and-division</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{points}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>3</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{games}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>19</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{div}</Name>
+					<ValueCalculation type="C#">return (int){points} / (int)({b} * 3);</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{mod}</Name>
+					<ValueCalculation type="C#">return (int){a} % (int)({b} * 3};</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Egy kosárlabdázó {points} pontot szerzett a bajnokságban. Mindegyik dobása 3 pontot ért, és a {games} meccs mindegyikén ugyannnyiszor talált a gyűrűbe.&lt;br /&gt;Hány érvényes dobása volt meccsenként?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>Minden meccsen {div} db hárompontost dobott a játékos.</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
 	</ProblemTemplates>
 </ProblemTemplateRepo>
