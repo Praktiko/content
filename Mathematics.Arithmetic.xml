@@ -1948,13 +1948,13 @@
 					<Name>{a}</Name>
 					<MinValue>1361</MinValue>
 					<MaxValue>9999</MaxValue>
-					<ValueStep>223</ValueStep>
+					<ValueStep>8</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>11</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>7</ValueStep>
+					<ValueStep>6</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{div}</Name>
