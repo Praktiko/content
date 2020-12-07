@@ -60,13 +60,13 @@
 					<Name>{a}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>120</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>7</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>150</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>7</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{x}</Name>
@@ -129,31 +129,7 @@
 					<MinValue>-9</MinValue>
 					<MaxValue>9</MaxValue>
 					<ValueStep>3</ValueStep>
-				</Variable>
-				<Variable>
-					<Name>{e}</Name>
-					<MinValue>1</MinValue>
-					<MaxValue>9</MaxValue>
-					<ValueStep>4</ValueStep>
-				</Variable>
-				<Variable>
-					<Name>{f}</Name>
-					<MinValue>-9</MinValue>
-					<MaxValue>9</MaxValue>
-					<ValueStep>2</ValueStep>
-				</Variable>
-				<Variable>
-					<Name>{g}</Name>
-					<MinValue>1</MinValue>
-					<MaxValue>9</MaxValue>
-					<ValueStep>3</ValueStep>
-				</Variable>
-				<Variable>
-					<Name>{h}</Name>
-					<MinValue>-9</MinValue>
-					<MaxValue>9</MaxValue>
-					<ValueStep>3</ValueStep>
-				</Variable>
+				</Variable>				
 				<Variable>
 					<Name>{x1}</Name>
 					<ValueCalculation type="C#">return (0-{b})/{a};</ValueCalculation>
@@ -181,7 +157,7 @@
 					<Presentation>
 						<LocalizedText>
 							<Culture>hu-HU</Culture>
-							<Text type="HTML">x = {x1.ToString("0")} vagy x = {x2.ToString("0")} vagy ...</Text>
+							<Text type="HTML">x = {x1} vagy x = {x2} vagy ...</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
@@ -255,19 +231,19 @@
 					<Name>{a}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>50</MaxValue>
-					<ValueStep>8</ValueStep>
+					<ValueStep>11</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>13</ValueStep>
+					<ValueStep>19</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c}</Name>
 					<MinValue>0</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>7</ValueStep>
+					<ValueStep>11</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c_s1}</Name>
@@ -325,19 +301,19 @@
 					<Name>{a}</Name>
 					<MinValue>-99</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>11</ValueStep>
+					<ValueStep>19</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>7</ValueStep>
+					<ValueStep>29</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c}</Name>
 					<MinValue>-99</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>13</ValueStep>
+					<ValueStep>21</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{z}</Name>
