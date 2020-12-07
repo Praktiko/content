@@ -96,6 +96,7 @@
 			<Guid>e85aeddd-be6b-44f7-94a5-31c8c43f53e6</Guid>
 			<Id>subcategory-addition-and-subtraction</Id>
 			<Category>subcategory</Category>
+			<Priority>3/1</Priority>
 			<ParentTags>
 				<guid>4cb78217-077e-4925-ab7d-cada5f31074d</guid>
 			</ParentTags>
@@ -114,6 +115,7 @@
 			<Guid>724d87e6-e517-4c22-8419-8324c16b7afb</Guid>
 			<Id>subcategory-multiplication-and-division</Id>
 			<Category>subcategory</Category>
+			<Priority>3/2</Priority>
 			<ParentTags>
 				<guid>4cb78217-077e-4925-ab7d-cada5f31074d</guid>
 			</ParentTags>
@@ -132,6 +134,7 @@
 			<Guid>accedd27-e444-42af-8829-7eee932e275b</Guid>
 			<Id>subcategory-factors-and-multiples</Id>
 			<Category>subcategory</Category>
+			<Priority>3/3</Priority>
 			<ParentTags>
 				<guid>4cb78217-077e-4925-ab7d-cada5f31074d</guid>
 			</ParentTags>
@@ -150,6 +153,7 @@
 			<Guid>64a495d9-3f78-40bf-ac8f-87df699eacd0</Guid>
 			<Id>subcategory-negative-numbers-and-absolute-value</Id>
 			<Category>subcategory</Category>
+			<Priority>3/4</Priority>
 			<ParentTags>
 				<guid>4cb78217-077e-4925-ab7d-cada5f31074d</guid>
 			</ParentTags>
@@ -168,6 +172,7 @@
 			<Guid>be62635f-9fd9-4254-9615-fa5893b8fd9a</Guid>
 			<Id>subcategory-decimals</Id>
 			<Category>subcategory</Category>
+			<Priority>3/5</Priority>
 			<ParentTags>
 				<guid>4cb78217-077e-4925-ab7d-cada5f31074d</guid>
 			</ParentTags>
