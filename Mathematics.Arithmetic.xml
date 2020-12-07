@@ -2501,7 +2501,7 @@
 			<Variables>
 				<Variable>
 					<Name>{a1}</Name>
-					<MinValue>100</MinValue>
+					<MinValue>20</MinValue>
 					<MaxValue>999</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
@@ -2526,7 +2526,7 @@
 					<ValueCalculation type="C#">return {a1}.PrimeFactors().Length == 3 ? {a1}.PrimeFactors()[2] : 1;</ValueCalculation>
 				</Variable>
 			</Variables>
-			<VariableValidator type="C#">return {a1}.PrimeFactors().Length == 3;</VariableValidator>
+			<VariableValidator type="C#">return ({a1}.PrimeFactors().Length == 3) &amp;&amp; ({a1}.PrimeFactors().Max() &lt; 20);</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{three_prime_factors}</Name>
