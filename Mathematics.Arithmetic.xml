@@ -2263,7 +2263,7 @@
 					<Name>{a}</Name>
 					<MinValue>3242</MinValue>
 					<MaxValue>9999999</MaxValue>
-					<ValueStep>19541</ValueStep>
+					<ValueStep>25541</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{dividable}</Name>
@@ -2303,7 +2303,7 @@
 					<Name>{a}</Name>
 					<MinValue>1522</MinValue>
 					<MaxValue>9999999</MaxValue>
-					<ValueStep>19549</ValueStep>
+					<ValueStep>24549</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{dividable}</Name>
