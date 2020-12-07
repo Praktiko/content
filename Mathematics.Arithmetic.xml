@@ -2526,7 +2526,7 @@
 					<ValueCalculation type="C#">return {a1}.PrimeFactors()[2];</ValueCalculation>
 				</Variable>
 			</Variables>
-			<VariableValidator type="C#">return {a}.PrimeFactors().Length == 3;</VariableValidator>
+			<VariableValidator type="C#">return {a1}.PrimeFactors().Length == 3;</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{three_prime_factors}</Name>
@@ -2536,7 +2536,7 @@
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mi a(z) {a} prímtényezős felbontása (kitevős alakban)?</Text>
+					<Text type="HTML">Mi a(z) {a1} prímtényezős felbontása (kitevős alakban)?</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
