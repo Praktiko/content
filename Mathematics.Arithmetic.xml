@@ -2489,5 +2489,65 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>		
+		<ProblemTemplate id="#000660">
+			<Guid>6e89d118-cb86-4bbc-8cc5-6adde869f12d</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a1}</Name>
+					<MinValue>100</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{primeFactor1}</Name>
+					<ValueCalculation type="C#">return {a1}.PrimeFactors()[0];</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{a2}</Name>
+					<ValueCalculation type="C#">return {a1}/{primeFactor1};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{primeFactor2}</Name>
+					<ValueCalculation type="C#">return {a1}.PrimeFactors()[1];</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{a3}</Name>
+					<ValueCalculation type="C#">return {a2}/{primeFactor2};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{primeFactor3}</Name>
+					<ValueCalculation type="C#">return {a1}.PrimeFactors()[2];</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return {a}.PrimeFactors().Length == 3;</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{three_prime_factors}</Name>
+					<Text type="SVG">/Mathematics.Arithmetics/000660/Three_prime_factors.svg</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a} prímtényezős felbontása (kitevős alakban)?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{three_prime_factors}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>	
 	</ProblemTemplates>
 </ProblemTemplateRepo>

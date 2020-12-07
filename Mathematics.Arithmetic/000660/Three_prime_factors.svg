@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.69 49.1">
+  <defs>
+    <style>
+      .a {
+        font-size: 12px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .c {
+        letter-spacing: 0em;
+      }
+
+      .d {
+        letter-spacing: -0.05em;
+      }
+
+      .e {
+        letter-spacing: 0.01em;
+      }
+
+      .f {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <text class="a" transform="translate(0 10.04)">{a1}</text>
+  <line class="b" x1="21.76" y1="1.04" x2="21.26" y2="48.54"/>
+  <text class="a" transform="translate(23.84 10.12)">{p<tspan class="c" x="10.24" y="0">r</tspan><tspan x="14.21" y="0">ime</tspan><tspan class="d" x="33.04" y="0">F</tspan><tspan x="38.34" y="0">a</tspan><tspan class="e" x="44.12" y="0">c</tspan><tspan class="f" x="49.66" y="0">t</tspan><tspan x="53.56" y="0">or1}</tspan></text>
+  <text class="a" transform="translate(0.42 22.1)">{a2}</text>
+  <text class="a" transform="translate(24.06 22.1)">{p<tspan class="c" x="10.24" y="0">r</tspan><tspan x="14.21" y="0">ime</tspan><tspan class="d" x="33.04" y="0">F</tspan><tspan x="38.34" y="0">a</tspan><tspan class="e" x="44.12" y="0">c</tspan><tspan class="f" x="49.66" y="0">t</tspan><tspan x="53.56" y="0">or2}</tspan></text>
+  <text class="a" transform="translate(0.78 34.1)">{a3}</text>
+  <text class="a" transform="translate(24.06 34.1)">{p<tspan class="c" x="10.24" y="0">r</tspan><tspan x="14.21" y="0">ime</tspan><tspan class="d" x="33.04" y="0">F</tspan><tspan x="38.34" y="0">a</tspan><tspan class="e" x="44.12" y="0">c</tspan><tspan class="f" x="49.66" y="0">t</tspan><tspan x="53.56" y="0">or3}</tspan></text>
+  <text class="a" transform="translate(13.14 46.1)">1</text>
+</svg>
