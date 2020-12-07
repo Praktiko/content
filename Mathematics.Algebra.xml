@@ -110,7 +110,7 @@
 					<Name>{a}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>9</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>2</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
@@ -301,19 +301,19 @@
 					<Name>{a}</Name>
 					<MinValue>-99</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>19</ValueStep>
+					<ValueStep>27</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>29</ValueStep>
+					<ValueStep>21</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c}</Name>
 					<MinValue>-99</MinValue>
 					<MaxValue>99</MaxValue>
-					<ValueStep>21</ValueStep>
+					<ValueStep>29</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{z}</Name>
