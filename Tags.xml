@@ -7,6 +7,7 @@
 			<Guid>333c72f9-dd98-48c4-8f6f-90df06739297</Guid>
 			<Id>subject-mathematics</Id>
 			<Category>subject</Category>
+			<Priority>1/1</Priority>
 			<ParentTags>
 			</ParentTags>
 			<Name>
@@ -24,6 +25,7 @@
 			<Guid>4cb78217-077e-4925-ab7d-cada5f31074d</Guid>
 			<Id>category-arithmetic</Id>
 			<Category>category</Category>
+			<Priority>2/1</Priority>
 			<ParentTags>
 				<guid>333c72f9-dd98-48c4-8f6f-90df06739297</guid>
 			</ParentTags>
@@ -56,6 +58,7 @@
 			<Guid>0b6ab301-b3f7-47c4-87d5-be3a095bcfe8</Guid>
 			<Id>category-algebra</Id>
 			<Category>category</Category>
+			<Priority>2/2</Priority>
 			<ParentTags>
 				<guid>333c72f9-dd98-48c4-8f6f-90df06739297</guid>
 			</ParentTags>
@@ -74,6 +77,7 @@
 			<Guid>26df2188-190e-4679-abfb-e3653026858e</Guid>
 			<Id>category-geometry</Id>
 			<Category>category</Category>
+			<Priority>2/3</Priority>
 			<ParentTags>
 				<guid>333c72f9-dd98-48c4-8f6f-90df06739297</guid>
 			</ParentTags>
@@ -308,6 +312,7 @@
 			<Guid>68cb8a47-6e4b-472b-829d-0aed61cc6e0c</Guid>
 			<Id>category-combinatorics</Id>
 			<Category>category</Category>
+			<Priority>2/4</Priority>
 			<ParentTags>
 				<guid>333c72f9-dd98-48c4-8f6f-90df06739297</guid>
 			</ParentTags>
