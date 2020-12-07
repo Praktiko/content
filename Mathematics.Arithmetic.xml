@@ -2530,7 +2530,7 @@
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{three_prime_factors}</Name>
-					<Text type="SVG">/Mathematics.Arithmetics/000660/Three_prime_factors.svg</Text>
+					<Text type="SVG">/Mathematics.Arithmetic/000660/Three_prime_factors.svg</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
