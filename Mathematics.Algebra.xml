@@ -110,7 +110,7 @@
 					<Name>{a}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>9</MaxValue>
-					<ValueStep>2</ValueStep>
+					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
@@ -122,7 +122,7 @@
 					<Name>{c}</Name>
 					<MinValue>1</MinValue>
 					<MaxValue>9</MaxValue>
-					<ValueStep>2</ValueStep>
+					<ValueStep>3</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{d}</Name>
