@@ -2227,7 +2227,7 @@
 				</Variable>
 				<Variable>
 					<Name>{dividable}</Name>
-					<ValueCalculation type="C#">return ((int){a} % 2) == 0;</ValueCalculation>
+					<ValueCalculation type="C#">return (((int){a} % 3) == 0) ? 1 : 0;</ValueCalculation>
 				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return true;</VariableValidator>
@@ -2267,7 +2267,7 @@
 				</Variable>
 				<Variable>
 					<Name>{dividable}</Name>
-					<ValueCalculation type="C#">return ((int){a} % 3) == 0;</ValueCalculation>
+					<ValueCalculation type="C#">return (((int){a} % 3) == 0) ? 1 : 0;</ValueCalculation>
 				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return true;</VariableValidator>
