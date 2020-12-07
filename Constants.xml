@@ -447,6 +447,34 @@
         </ConstantDefinition>
       </Constants>
     </ConstantListDefinition>
+    <ConstantListDefinition name="YesNo">
+      <Constants>
+        <ConstantDefinition>
+          <Constant>
+            <LocalizedText>
+              <Culture>hu-HU</Culture>
+              <Text>nem</Text>
+            </LocalizedText>
+            <LocalizedText>
+              <Culture>en-US</Culture>
+              <Text>no</Text>
+            </LocalizedText>
+          </Constant>
+        </ConstantDefinition>
+        <ConstantDefinition>
+          <Constant>
+            <LocalizedText>
+              <Culture>hu-HU</Culture>
+              <Text>igen</Text>
+            </LocalizedText>
+            <LocalizedText>
+              <Culture>en-US</Culture>
+              <Text>yes</Text>
+            </LocalizedText>
+          </Constant>
+        </ConstantDefinition>
+      </Constants>
+    </ConstantListDefinition>	
     <ConstantListDefinition name="Animals">
       <Constants>
         <ConstantDefinition>
