@@ -2209,5 +2209,85 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>
+		<ProblemTemplate id="#000570-2">
+			<Guid>5278aebb-e288-4862-9314-603e1c725441</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999999</MaxValue>
+					<ValueStep>19531</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{dividable}</Name>
+					<ValueCalculation type="C#">return ({a} % 2) == 0;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Osztható a(z) {a} kettővel maradék nélkül?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>YesNo[{dividable}]</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
+		<ProblemTemplate id="#000570-3">
+			<Guid>484d91fc-f4cd-4329-89a9-8678fc8f1d7e</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>1000</MinValue>
+					<MaxValue>9999999</MaxValue>
+					<ValueStep>19532</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{dividable}</Name>
+					<ValueCalculation type="C#">return ({a} % 3) == 0;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return true;</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Osztható a(z) {a} kettővel maradék nélkül?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>YesNo[{dividable}]</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
 	</ProblemTemplates>
 </ProblemTemplateRepo>
