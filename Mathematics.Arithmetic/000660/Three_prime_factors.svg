@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.69 49.1">
-  <line stroke="black" x1="21.76" y1="1.04" x2="21.26" y2="48.54"/>
-  <text transform="translate(0 10.04)" text-anchor="end">{a1}</text>
-  <text transform="translate(23.84 10.12)">{primeFactor1}</text>
-  <text transform="translate(0.42 22.1)" text-anchor="end">{a2}</text>
-  <text transform="translate(24.06 22.1)">{primeFactor2}</text>
-  <text transform="translate(0.78 34.1)" text-anchor="end">{a3}</text>
-  <text transform="translate(24.06 34.1)">{primeFactor3}</text>
-  <text transform="translate(13.14 46.1)" text-anchor="end">1</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 49">
+  <line stroke="black" x1="20" y1="1" x2="20" y2="48"/>
+  <text x="20" y="10" text-anchor="end">{a1}</text>
+  <text x="24" y="10" text-anchor="start">{primeFactor1}</text>
+  <text x="20" y="22" text-anchor="end">{a2}</text>
+  <text x="24" y="22" text-anchor="start">{primeFactor2}</text>
+  <text x="20" y="34" text-anchor="end">{a3}</text>
+  <text x="24" y="34" text-anchor="start">{primeFactor3}</text>
+  <text x="20" y="46" text-anchor="end">1</text>
 </svg>
