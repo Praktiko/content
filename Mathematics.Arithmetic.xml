@@ -2736,7 +2736,7 @@
 					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
 				</Variable>				
 			</Variables>
-			<VariableValidator type="C#">return ({a} != {b});</VariableValidator>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
 			<TextSnippets/>
 			<Question>
 				<LocalizedText>
