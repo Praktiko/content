@@ -2555,7 +2555,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-9</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2608,8 +2608,8 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
-				<string>difficulty-easy</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
 			</Tags>
 			<Variables>
 				<Variable>
@@ -2658,8 +2658,8 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
-				<string>difficulty-easy</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-advanced</string>
 			</Tags>
 			<Variables>
 				<Variable>
@@ -2714,8 +2714,8 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
-				<string>difficulty-easy</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
 			</Tags>
 			<Variables>
 				<Variable>
