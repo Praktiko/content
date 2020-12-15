@@ -2692,7 +2692,6 @@
 					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple-of-three-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
-
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
@@ -2737,18 +2736,23 @@
 				</Variable>				
 			</Variables>
 			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
-			<TextSnippets/>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{greatest-common-divisor-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Greatest-common-divisor.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mi a(z) {a} és a(z) {b} legnagyobb közös osztója, azaz mennyi a LNKO({a},{b}) kifejezés értéke?</Text>
+					<Text type="HTML">Mi a(z) {a} és a(z) {b} legnagyobb közös osztója (LNKO)?&lt;br /&gt;{greatest-common-divisor-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
 				<SolutionStep>
 					<Presentation>
 						<LocalizedText>
-							<Text>({a}; {b}) = {greatestCommonDivisor}</Text>
+							<Text>{greatestCommonDivisor}</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>

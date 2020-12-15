@@ -1,0 +1,11 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+	<mfenced open="(" close=")">
+		<mrow>
+			<mn>{a}</mn>
+			<mo>,</mo>
+			<mn>{b}</mn>
+		</mrow>
+	</mfenced>
+	<mo>=</mo>
+	<mo>?</mo>
+</math>
