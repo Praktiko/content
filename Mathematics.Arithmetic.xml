@@ -2579,12 +2579,8 @@
 					<Name>{commonDivisor2}</Name>
 					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(1);</ValueCalculation>
 				</Variable>				
-				<Variable>
-					<Name>{commonDivisor3}</Name>
-					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(2);</ValueCalculation>
-				</Variable>				
 			</Variables>
-			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 3);</VariableValidator>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 2);</VariableValidator>
 			<TextSnippets/>
 			<Question>
 				<LocalizedText>
@@ -2596,7 +2592,7 @@
 				<SolutionStep>
 					<Presentation>
 						<LocalizedText>
-							<Text>{commonDivisor1}, {commonDivisor2}, {commonDivisor3}</Text>
+							<Text>{commonDivisor1}, {commonDivisor2}</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
