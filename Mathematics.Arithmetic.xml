@@ -2549,5 +2549,58 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>	
+		<ProblemTemplate id="#000690">
+			<Guid>8fe73f79-acb3-4f02-8bc2-5e72a364354a</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-1</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>10</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{commonDivisor1}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(0);</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{commonDivisor2}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(1);</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{commonDivisor3}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(2);</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 3);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mik a(z) {a} és a {b} közös osztói?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{commonDivisor1}, {commonDivisor2}, {commonDivisor3}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
 	</ProblemTemplates>
 </ProblemTemplateRepo>
