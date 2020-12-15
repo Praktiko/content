@@ -9,7 +9,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -59,7 +59,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -109,7 +109,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -159,7 +159,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -209,7 +209,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -259,7 +259,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-intermediate</string>
 			</Tags>
 			<Variables>
@@ -309,7 +309,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-intermediate</string>
 			</Tags>
 			<Variables>
@@ -359,7 +359,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-intermediate</string>
 			</Tags>
 			<Variables>
@@ -409,7 +409,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-intermediate</string>
 			</Tags>
 			<Variables>
@@ -459,7 +459,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-advanced</string>
 			</Tags>
 			<Variables>
@@ -509,7 +509,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-advanced</string>
 			</Tags>
 			<Variables>
@@ -559,7 +559,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-advanced</string>
 			</Tags>
 			<Variables>
@@ -609,7 +609,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-addition-and-subtraction</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-3</string>
 				<string>difficulty-advanced</string>
 			</Tags>
 			<Variables>
@@ -654,7 +654,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -704,7 +704,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -754,7 +754,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -804,7 +804,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -854,7 +854,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -909,7 +909,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -958,7 +958,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1012,7 +1012,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1076,7 +1076,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1122,7 +1122,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1168,7 +1168,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1224,7 +1224,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1274,7 +1274,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1324,7 +1324,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1374,7 +1374,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1424,7 +1424,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1474,7 +1474,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1524,7 +1524,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1574,7 +1574,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1624,7 +1624,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1674,7 +1674,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1720,7 +1720,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1775,7 +1775,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1830,7 +1830,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1885,7 +1885,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1940,7 +1940,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -1995,7 +1995,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2050,7 +2050,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2105,7 +2105,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2155,7 +2155,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-multiplication-and-division</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2215,7 +2215,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2255,7 +2255,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2295,7 +2295,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2335,7 +2335,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2375,7 +2375,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2415,7 +2415,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2455,7 +2455,7 @@
 				<string>subject-mathematics</string>
 				<string>category-arithmetic</string>
 				<string>subcategory-factors-and-multiples</string>
-				<string>class-hungary-1</string>
+				<string>class-hungary-4</string>
 				<string>difficulty-easy</string>
 			</Tags>
 			<Variables>
@@ -2489,5 +2489,278 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>		
+		<ProblemTemplate id="#000660">
+			<Guid>6e89d118-cb86-4bbc-8cc5-6adde869f12d</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a1}</Name>
+					<MinValue>20</MinValue>
+					<MaxValue>999</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{primeFactor1}</Name>
+					<ValueCalculation type="C#">return {a1}.PrimeFactors().Length == 3 ? {a1}.PrimeFactors()[0] : 1;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{a2}</Name>
+					<ValueCalculation type="C#">return {a1}/{primeFactor1};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{primeFactor2}</Name>
+					<ValueCalculation type="C#">return {a1}.PrimeFactors().Length == 3 ? {a1}.PrimeFactors()[1] : 1;</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{a3}</Name>
+					<ValueCalculation type="C#">return {a2}/{primeFactor2};</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{primeFactor3}</Name>
+					<ValueCalculation type="C#">return {a1}.PrimeFactors().Length == 3 ? {a1}.PrimeFactors()[2] : 1;</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a1}.PrimeFactors().Length == 3) &amp;&amp; ({a1}.PrimeFactors().Max() &lt; 20);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{three_prime_factors}</Name>
+					<Text type="SVG">/Mathematics.Arithmetic/000660/Three_prime_factors.svg</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a1} prímtényezős felbontása (kitevős alakban)?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{three_prime_factors}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>	
+		<ProblemTemplate id="#000690">
+			<Guid>8fe73f79-acb3-4f02-8bc2-5e72a364354a</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>8</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>8</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{commonDivisor1}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(0);</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{commonDivisor2}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(1);</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{commonDivisor3}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(2);</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{commonDivisor4}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(3);</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 4);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mik a(z) {a} és a(z) {b} közös osztói?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{commonDivisor1}, {commonDivisor2}, {commonDivisor3}, {commonDivisor4}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
+		<ProblemTemplate id="#000700">
+			<Guid>e6b68d7f-e76f-49fb-ab70-5aabfe584299</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{leastCommonMultiple}</Name>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b});</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{least-common-multiple-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a} és a(z) {b} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{leastCommonMultiple}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>	
+		<ProblemTemplate id="#000720">
+			<Guid>484aa363-4075-4c9e-84ca-f68ba906ae3e</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-advanced</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{leastCommonMultiple}</Name>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b}, {c});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({a} != {c});</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{least-common-multiple-of-three-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple-of-three-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a}, a(z) {b}, és a(z) {c} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-of-three-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{leastCommonMultiple}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>	
+		<ProblemTemplate id="#000740">
+			<Guid>9c5af8de-e710-4488-8bd2-09c5a009db37</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>90</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{greatestCommonDivisor}</Name>
+					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{greatest-common-divisor-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Greatest-common-divisor.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a} és a(z) {b} legnagyobb közös osztója (LNKO)?&lt;br /&gt;{greatest-common-divisor-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{greatestCommonDivisor}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>			
 	</ProblemTemplates>
 </ProblemTemplateRepo>

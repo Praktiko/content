@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 49">
+  <line stroke="black" x1="27" y1="1" x2="27" y2="48"/>
+  <text x="25" y="10" text-anchor="end">???</text>
+  <text x="29" y="10" text-anchor="start">{primeFactor1}</text>
+  <text x="25" y="22" text-anchor="end">{a2}</text>
+  <text x="29" y="22" text-anchor="start">{primeFactor2}</text>
+  <text x="25" y="34" text-anchor="end">{a3}</text>
+  <text x="29" y="34" text-anchor="start">{primeFactor3}</text>
+  <text x="25" y="46" text-anchor="end">1</text>
+</svg>
