@@ -2561,13 +2561,13 @@
 			<Variables>
 				<Variable>
 					<Name>{a}</Name>
-					<MinValue>2</MinValue>
+					<MinValue>8</MinValue>
 					<MaxValue>90</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
-					<MinValue>2</MinValue>
+					<MinValue>8</MinValue>
 					<MaxValue>90</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
@@ -2583,8 +2583,12 @@
 					<Name>{commonDivisor3}</Name>
 					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(2);</ValueCalculation>
 				</Variable>				
+				<Variable>
+					<Name>{commonDivisor4}</Name>
+					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(3);</ValueCalculation>
+				</Variable>				
 			</Variables>
-			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length >= 3);</VariableValidator>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 4);</VariableValidator>
 			<TextSnippets/>
 			<Question>
 				<LocalizedText>
@@ -2596,7 +2600,7 @@
 				<SolutionStep>
 					<Presentation>
 						<LocalizedText>
-							<Text>{commonDivisor1}, {commonDivisor2}, {commonDivisor3}</Text>
+							<Text>{commonDivisor1}, {commonDivisor2}, {commonDivisor3}, {commonDivisor4}</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
