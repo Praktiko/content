@@ -2561,13 +2561,13 @@
 			<Variables>
 				<Variable>
 					<Name>{a}</Name>
-					<MinValue>10</MinValue>
+					<MinValue>2</MinValue>
 					<MaxValue>90</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
-					<MinValue>10</MinValue>
+					<MinValue>2</MinValue>
 					<MaxValue>90</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
