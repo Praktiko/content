@@ -2670,7 +2670,7 @@
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
-					<Name>{b}</Name>
+					<Name>{c}</Name>
 					<MinValue>2</MinValue>
 					<MaxValue>90</MaxValue>
 					<ValueStep>1</ValueStep>
