@@ -2696,7 +2696,7 @@
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mi a(z) {a}, a(z), és a(z) {c} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-of-three-numbers-1}</Text>
+					<Text type="HTML">Mi a(z) {a}, a(z) {b}, és a(z) {c} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-of-three-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
@@ -2748,7 +2748,7 @@
 				<SolutionStep>
 					<Presentation>
 						<LocalizedText>
-							<Text>[{a}; {b}] = {greatestCommonDivisor}</Text>
+							<Text>({a}; {b}) = {greatestCommonDivisor}</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
