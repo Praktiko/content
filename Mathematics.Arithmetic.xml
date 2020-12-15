@@ -2584,7 +2584,7 @@
 					<ValueCalculation type="C#">return vc.CommonDivisors({a},{b}).ElementAtOrDefault(2);</ValueCalculation>
 				</Variable>				
 			</Variables>
-			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 4);</VariableValidator>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; (vc.CommonDivisors({a},{b}).Length == 3);</VariableValidator>
 			<TextSnippets/>
 			<Question>
 				<LocalizedText>
