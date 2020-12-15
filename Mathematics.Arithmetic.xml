@@ -2619,13 +2619,13 @@
 				<Variable>
 					<Name>{a}</Name>
 					<MinValue>2</MinValue>
-					<MaxValue>30</MaxValue>
+					<MaxValue>25</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>2</MinValue>
-					<MaxValue>30</MaxValue>
+					<MaxValue>25</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
@@ -2669,19 +2669,19 @@
 				<Variable>
 					<Name>{a}</Name>
 					<MinValue>2</MinValue>
-					<MaxValue>17</MaxValue>
+					<MaxValue>12</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>2</MinValue>
-					<MaxValue>17</MaxValue>
+					<MaxValue>12</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c}</Name>
 					<MinValue>2</MinValue>
-					<MaxValue>16</MaxValue>
+					<MaxValue>12</MaxValue>
 					<ValueStep>1</ValueStep>
 				</Variable>
 				<Variable>
