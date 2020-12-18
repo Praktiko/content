@@ -2825,5 +2825,57 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>
+		<ProblemTemplate id="#000760">
+			<Guid>396c00c3-88b9-4a14-8557-78f10b44c621</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>16</MinValue>
+					<MaxValue>40</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>16</MinValue>
+					<MaxValue>40</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>16</MinValue>
+					<MaxValue>40</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{greatestCommonDivisor}</Name>
+					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({b} != {c}) &amp;&amp; ({greatestCommonDivisor} &gt;= 4);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Az iskolai évkönyvbe a végzős osztályok minden tanulójáról raknak egy képet. Úgy akarják elhelyezni a képeket osztályonként külön-külön, hogy minden sorban ugyanannyi kép legyen. Legfejlebb hány képet tehetnek egy sorba, ha az osztálylétszámok {a}, {b} és {c}?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>						
+							<Text>{greatestCommonDivisor} képet</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
 	</ProblemTemplates>
 </ProblemTemplateRepo>
