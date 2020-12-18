@@ -2928,6 +2928,56 @@
 					</Presentation>
 				</SolutionStep>
 			</Solution>
-		</ProblemTemplate>		
+		</ProblemTemplate>
+		<ProblemTemplate id="#000770">
+			<Guid>3d66930e-5ebf-4c04-833a-b67230ab60af</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-negative-numbers-and-absolute-value</string>
+				<string>class-hungary-3</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>-9</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sub}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({sub} &lt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{substracting-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Substracting-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{substracting-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sub}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>	
 	</ProblemTemplates>
 </ProblemTemplateRepo>
