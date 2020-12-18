@@ -2993,31 +2993,31 @@
 					<Name>{a}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>3</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>7</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>9</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{d}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>11</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{e}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>1</ValueStep>
+					<ValueStep>13</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{ordered1}</Name>
