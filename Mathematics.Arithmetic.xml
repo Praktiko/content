@@ -2993,13 +2993,13 @@
 					<Name>{a}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>3</ValueStep>
+					<ValueStep>19</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{b}</Name>
 					<MinValue>-59</MinValue>
 					<MaxValue>-1</MaxValue>
-					<ValueStep>7</ValueStep>
+					<ValueStep>23</ValueStep>
 				</Variable>
 				<Variable>
 					<Name>{c}</Name>
