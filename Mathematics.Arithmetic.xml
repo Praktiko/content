@@ -2737,7 +2737,7 @@
 				<Variable>
 					<Name>{greatestCommonDivisor}</Name>
 					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
-				</Variable>				
+				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
 			<TextSnippets>
@@ -2762,5 +2762,329 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>			
+		<ProblemTemplate id="#000730">
+			<Guid>c2fe167d-35d9-41e0-b572-d53c852d3d06</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-advanced</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{greatestCommonDivisor}</Name>
+					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{leastCommonMultiple}</Name>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{least-common-multiple-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a} és a(z) {b} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-1}&lt;br /&gt;Az eredmény kiszámolásához használd fel a legnagyobb közös osztó (LNKO) értékét is!</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>LNKO({a}, {b})={greatestCommonDivisor}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>						
+							<Text>LKKT[{a}, {b}]={leastCommonMultiple}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000760/1">
+			<Guid>396c00c3-88b9-4a14-8557-78f10b44c621</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>16</MinValue>
+					<MaxValue>35</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>16</MinValue>
+					<MaxValue>35</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>16</MinValue>
+					<MaxValue>35</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{greatestCommonDivisor}</Name>
+					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
+				</Variable>
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({b} != {c}) &amp;&amp; ({greatestCommonDivisor} &gt;= 4);</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Az iskolai évkönyvbe a végzős osztályok minden tanulójáról raknak egy képet. Úgy akarják elhelyezni a képeket osztályonként külön-külön, hogy minden sorban ugyanannyi kép legyen. Legfejlebb hány képet tehetnek egy sorba, ha az osztálylétszámok {a}, {b} és {c}?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>						
+							<Text>{greatestCommonDivisor} képet</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000760/2">
+			<Guid>1cbe456d-55a4-4c43-862e-4d0930354ab8</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{leastCommonMultiple}</Name>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b}, {c});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({b} != {c}) &amp;&amp; ({leastCommonMultiple} &lt;= {a} * {b} * {c});</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">{Names["Alice"]} a bélyegeket rendezgeti az albumban. Megállapítja, hogy ha {a}-esével, ha {b}-asával vagy {c}-ösével pakolja őket, akkor is tud azonos sorokat képezni. Legkevesebb hány bélyege lehet {Names["Alice"]}-nek?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>						
+							<Text>{leastCommonMultiple} képe</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000770">
+			<Guid>3d66930e-5ebf-4c04-833a-b67230ab60af</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-negative-numbers-and-absolute-value</string>
+				<string>class-hungary-3</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>-9</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>1</MinValue>
+					<MaxValue>9</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{sub}</Name>
+					<ValueCalculation type="C#">return {a} - {b};</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({sub} &lt; 0);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{subtracting-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-numbers-1}</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{sub}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
+		<ProblemTemplate id="#000780">
+			<Guid>7d585535-c816-4741-971e-593cd98e3671</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-negative-numbers-and-absolute-value</string>
+				<string>class-hungary-3</string>
+				<string>difficulty-easy</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>-59</MinValue>
+					<MaxValue>-1</MaxValue>
+					<ValueStep>19</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>-59</MinValue>
+					<MaxValue>-1</MaxValue>
+					<ValueStep>23</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>-59</MinValue>
+					<MaxValue>-1</MaxValue>
+					<ValueStep>37</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{d}</Name>
+					<MinValue>-57</MinValue>
+					<MaxValue>-1</MaxValue>
+					<ValueStep>19</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{e}</Name>
+					<MinValue>-59</MinValue>
+					<MaxValue>-1</MaxValue>
+					<ValueStep>13</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{ordered1}</Name>
+					<ValueCalculation type="C#">return vc.OrderAndPick(0, {a}, {b}, {c}, {d}, {e});</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{ordered2}</Name>
+					<ValueCalculation type="C#">return vc.OrderAndPick(1, {a}, {b}, {c}, {d}, {e});</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{ordered3}</Name>
+					<ValueCalculation type="C#">return vc.OrderAndPick(2, {a}, {b}, {c}, {d}, {e});</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{ordered4}</Name>
+					<ValueCalculation type="C#">return vc.OrderAndPick(3, {a}, {b}, {c}, {d}, {e});</ValueCalculation>
+				</Variable>				
+				<Variable>
+					<Name>{ordered5}</Name>
+					<ValueCalculation type="C#">return vc.OrderAndPick(4, {a}, {b}, {c}, {d}, {e});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return vc.AreAllDifferent({a}, {b}, {c}, {d}, {e});</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Állítsuk növekvő sorrendbe a következő számokat: {a}, {b}, {c}, {d}, {e}!</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{ordered1}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{ordered2}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{ordered3}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{ordered4}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Text>{ordered5}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
 	</ProblemTemplates>
 </ProblemTemplateRepo>
