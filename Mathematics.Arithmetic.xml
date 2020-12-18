@@ -2692,14 +2692,14 @@
 			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({a} != {c});</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
-					<Name>{least-common-multiple-of-three-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple-of-three-numbers.mathml</Text>
+					<Name>{least-common-multiple-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mi a(z) {a}, a(z) {b}, és a(z) {c} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-of-three-numbers-1}</Text>
+					<Text type="HTML">Mi a(z) {a} és a(z) {b} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
@@ -2737,7 +2737,7 @@
 				<Variable>
 					<Name>{greatestCommonDivisor}</Name>
 					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
-				</Variable>				
+				</Variable>
 			</Variables>
 			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
 			<TextSnippets>
@@ -2762,5 +2762,68 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>			
+		<ProblemTemplate id="#000730">
+			<Guid>c2fe167d-35d9-41e0-b572-d53c852d3d06</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>50</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{greatestCommonDivisor}</Name>
+					<ValueCalculation type="C#">return vc.GreatestCommonDivisor({a}, {b});</ValueCalculation>
+				</Variable>
+				<Variable>
+					<Name>{leastCommonMultiple}</Name>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({greatestCommonDivisor} &gt;= 3);</VariableValidator>
+			<TextSnippets>
+				<TextSnippet>
+					<Name>{least-common-multiple-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple.mathml</Text>
+				</TextSnippet>
+			</TextSnippets>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">Mi a(z) {a} és a(z) {b} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-1}&lt;br /&gt;Az eredmény kiszámolásához használd fel a legnagyobb közös osztó (LNKO) értékét is!</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>
+							<Text>LNKO({a}, {b})={greatestCommonDivisor}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>						
+							<Text>LKKT[{a}, {b}]={leastCommonMultiple}</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>
 	</ProblemTemplates>
 </ProblemTemplateRepo>
