@@ -2825,7 +2825,7 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>
-		<ProblemTemplate id="#000760">
+		<ProblemTemplate id="#000760/1">
 			<Guid>396c00c3-88b9-4a14-8557-78f10b44c621</Guid>
 			<Tags>
 				<string>subject-mathematics</string>
@@ -2877,5 +2877,57 @@
 				</SolutionStep>
 			</Solution>
 		</ProblemTemplate>
+		<ProblemTemplate id="#000760/2">
+			<Guid>1cbe456d-55a4-4c43-862e-4d0930354ab8</Guid>
+			<Tags>
+				<string>subject-mathematics</string>
+				<string>category-arithmetic</string>
+				<string>subcategory-factors-and-multiples</string>
+				<string>class-hungary-9</string>
+				<string>difficulty-intermediate</string>
+			</Tags>
+			<Variables>
+				<Variable>
+					<Name>{a}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{b}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{c}</Name>
+					<MinValue>2</MinValue>
+					<MaxValue>12</MaxValue>
+					<ValueStep>1</ValueStep>
+				</Variable>
+				<Variable>
+					<Name>{leastCommonMultiple}</Name>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b});</ValueCalculation>
+				</Variable>				
+			</Variables>
+			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({b} != {c}) &amp;&amp; ({leastCommonMultiple} &lt;= {a} * {b} * {c});</VariableValidator>
+			<TextSnippets/>
+			<Question>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text type="HTML">{Names["Alice"]} a bélyegeket rendezgeti az albumban. Megállapítja, hogy ha {a}-esével, ha {b}-asával vagy {c}-ösével pakolja őket, akkor is tud azonos sorokat képezni. Legkevesebb hány bélyege lehet {Names["Alice"]}-nek?</Text>
+				</LocalizedText>
+			</Question>
+			<Solution>
+				<SolutionStep>
+					<Presentation>
+						<LocalizedText>
+							<Culture>hu-HU</Culture>						
+							<Text>{leastCommonMultiple} képe</Text>
+						</LocalizedText>
+					</Presentation>
+				</SolutionStep>
+			</Solution>
+		</ProblemTemplate>		
 	</ProblemTemplates>
 </ProblemTemplateRepo>
