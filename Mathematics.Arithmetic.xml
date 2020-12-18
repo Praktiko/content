@@ -2959,14 +2959,14 @@
 			<VariableValidator type="C#">return ({sub} &lt; 0);</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
-					<Name>{substracting-numbers-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/Substracting-numbers.mathml</Text>
+					<Name>{subtracting-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Subtracting-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{substracting-numbers-1}</Text>
+					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
