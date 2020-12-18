@@ -2692,14 +2692,14 @@
 			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({a} != {c});</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
-					<Name>{least-common-multiple-1}</Name>
-					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple.mathml</Text>
+					<Name>{least-common-multiple-of-three-numbers-1}</Name>
+					<Text type="MathML">/Mathematics.Arithmetic/Least-common-multiple-of-three-numbers.mathml</Text>
 				</TextSnippet>
 			</TextSnippets>
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mi a(z) {a} és a(z) {b} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-1}</Text>
+					<Text type="HTML">Mi a(z) {a}, a(z) {b}, és a(z) {c} legkisebb közös többszöröse (LKKT)?&lt;br /&gt;{least-common-multiple-of-three-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
