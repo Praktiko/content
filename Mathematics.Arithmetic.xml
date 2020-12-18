@@ -2907,7 +2907,7 @@
 				</Variable>
 				<Variable>
 					<Name>{leastCommonMultiple}</Name>
-					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b});</ValueCalculation>
+					<ValueCalculation type="C#">return vc.LeastCommonMultiple({a}, {b}, {c});</ValueCalculation>
 				</Variable>				
 			</Variables>
 			<VariableValidator type="C#">return ({a} != {b}) &amp;&amp; ({b} != {c}) &amp;&amp; ({leastCommonMultiple} &lt;= {a} * {b} * {c});</VariableValidator>
