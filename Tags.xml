@@ -52,6 +52,10 @@
 					<Culture>hu-HU</Culture>
 					<Text>Véges számokkal, tizedestörtekkel való számolás; hosszúsági, területi és térfogati mértékegységek.</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text>Counting finite numbers, decimal fractions; units of length, area and volume.</Text>
+				</LocalizedText>
 			</Name>
 		</TagDefinition>
 		<TagDefinition>
