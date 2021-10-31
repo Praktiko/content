@@ -42,6 +42,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{basic-addition-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this addition?&lt;br /&gt;{basic-addition-1}</Text>
+				</LocalizedText>
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -92,6 +96,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{basic-subtraction-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this subtraction?&lt;br /&gt;{basic-subtraction-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -142,6 +150,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{adding-two-digit-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this addition?&lt;br /&gt;{adding-two-digit-numbers-1}</Text>
+				</LocalizedText>								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -987,7 +999,7 @@
 					<ValueCalculation type="C#">return (int){a} % (int){b};</ValueCalculation>
 				</Variable>
 			</Variables>
-			<VariableValidator type="C#">return ({mod} == 0);</VariableValidator>
+			<VariableValidator type="C#">return (({mod} == 0) == ({a} != {b}));</VariableValidator>
 			<TextSnippets>
 				<TextSnippet>
 					<Name>{multiplication-with-substitution-1}</Name>
@@ -1054,6 +1066,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">{Names["Bob"]} {b}-szer annyi idős, mint {Names["Alice"]}. {Names["Alice"]} {a} éves. {Names["Charlie"]} {c}-szer annyi idős, mint {Names["Bob"]}. {Names["Charlie"]} és {Names["Bob"]} hány évesek?</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">{Names["Bob"]} is {b} times as old as {Names["Alice"]}, and {Names["Charlie"]} is {c} times as old as {Names["Bob"]}. {Names["Alice"]} is {a} years old. How old are {Names["Charlie"]} and {Names["Bob"]}?</Text>
+				</LocalizedText>
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1062,6 +1078,10 @@
 							<Culture>hu-HU</Culture>
 							<Text>{Names["Charlie"]} {mul_3} éves, ...</Text>
 						</LocalizedText>
+						<LocalizedText>
+							<Culture>en-US</Culture>
+							<Text>{Names["Charlie"]} is {mul_3} years old, ...</Text>
+						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
 				<SolutionStep>
@@ -1069,6 +1089,10 @@
 						<LocalizedText>
 							<Culture>hu-HU</Culture>
 							<Text>... {Names["Bob"]} pedig {mul_2} éves.</Text>
+						</LocalizedText>
+						<LocalizedText>
+							<Culture>en-US</Culture>
+							<Text>... and {Names["Bob"]} is {mul_2} years old.</Text>
 						</LocalizedText>
 					</Presentation>
 				</SolutionStep>
@@ -2089,7 +2113,11 @@
 			<Question>
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
-					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+					<Text type="HTML">Mennyi az osztás eredménye és mennyi a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division and what is the remainder?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
