@@ -637,6 +637,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Egy zöldségesnek {a} db paradicsoma van. Ebből három nap alatt elad {b} db-ot.&lt;br /&gt;Hány paradicsoma marad a harmadik nap végére?</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">A farmer has {a} tomatoes. He sells {b} of them in three days.&lt;br /&gt;How many tomatoes will be left by the end of the tgird day?</Text>
+				</LocalizedText>
 			</Question>
 			<Solution>
 				<SolutionStep>
