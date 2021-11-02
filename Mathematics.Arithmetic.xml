@@ -204,6 +204,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtraction-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this subtraction?&lt;br /&gt;{subtraction-1}</Text>
+				</LocalizedText>												
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -254,6 +258,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-two-digit-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this subtraction?&lt;br /&gt;{subtracting-two-digit-numbers-1}</Text>
+				</LocalizedText>																
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -304,6 +312,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-2-addition-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this addition?&lt;br /&gt;{level-2-addition-1}</Text>
+				</LocalizedText>																				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -354,6 +366,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-3-addition-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this addition?&lt;br /&gt;{level-3-addition-1}</Text>
+				</LocalizedText>																				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -404,6 +420,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-3-addition-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this addition?&lt;br /&gt;{level-3-addition-1}</Text>
+				</LocalizedText>																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -454,6 +474,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az összeadás eredménye?&lt;br /&gt;{level-3-addition-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this addition?&lt;br /&gt;{level-3-addition-1}</Text>
+				</LocalizedText>																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -504,6 +528,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-two-digit-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this subtraction?&lt;br /&gt;{subtracting-two-digit-numbers-1}</Text>
+				</LocalizedText>																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -554,6 +582,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this subtraction?&lt;br /&gt;{subtracting-numbers-1}</Text>
+				</LocalizedText>																												
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -604,6 +636,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a kivonás eredménye?&lt;br /&gt;{subtracting-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this subtraction?&lt;br /&gt;{subtracting-numbers-1}</Text>
+				</LocalizedText>																																
 			</Question>
 			<Solution>
 				<SolutionStep>
