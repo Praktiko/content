@@ -739,6 +739,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>																																				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -789,6 +793,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>																																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -839,6 +847,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>																																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -889,6 +901,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>																																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -943,6 +959,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>																																								
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1271,6 +1291,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-three-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-three-numbers-1}</Text>
+				</LocalizedText>																																												
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1321,6 +1345,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>																																																
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1370,6 +1398,10 @@
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
@@ -1421,6 +1453,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1471,6 +1507,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1521,6 +1561,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1571,6 +1615,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1621,6 +1669,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1671,6 +1723,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1721,6 +1777,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi a szorzás eredménye?&lt;br /&gt;{multiplying-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this multiplication?&lt;br /&gt;{multiplying-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1821,6 +1881,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1875,6 +1939,10 @@
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division and what is the remainder?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
@@ -1931,6 +1999,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -1986,6 +2058,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division and what is the remainder?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>				
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -2041,6 +2117,10 @@
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
 			</Question>
 			<Solution>
 				<SolutionStep>
@@ -2095,6 +2175,10 @@
 				<LocalizedText>
 					<Culture>hu-HU</Culture>
 					<Text type="HTML">Mennyi az osztás eredménye és a maradék?&lt;br /&gt;{dividing-numbers-1}</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text type="HTML">What is the result of this division and what is the remainder?&lt;br /&gt;{dividing-numbers-1}</Text>
 				</LocalizedText>
 			</Question>
 			<Solution>
