@@ -78,6 +78,24 @@
 			</Name>
 		</TagDefinition>
 		<TagDefinition>
+			<Guid>b7c5e2dd-f39e-41a0-9dc6-a3b7e1e67fda</Guid>
+			<Id>category-algebra-description</Id>
+			<Category>description</Category>
+			<ParentTags>
+				<guid>0b6ab301-b3f7-47c4-87d5-be3a095bcfe8</guid>
+			</ParentTags>
+			<Name>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Az összeadás és szorzás tulajdonságai, a változó fogalma, polinom definíciója, faktorizálása és gyökeinek meghatározása.</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text>Properties of addition and multiplication, the concept of a variable, the definition of a polynomial, factorization, and the determination of its roots.</Text>
+				</LocalizedText>
+			</Name>
+		</TagDefinition>
+		<TagDefinition>
 			<Guid>26df2188-190e-4679-abfb-e3653026858e</Guid>
 			<Id>category-geometry</Id>
 			<Category>category</Category>
@@ -96,6 +114,24 @@
 				</LocalizedText>
 			</Name>
 		</TagDefinition>
+		<TagDefinition>
+			<Guid>31462253-fd7a-48c8-8d71-4bc41656a1be</Guid>
+			<Id>category-geometry-description</Id>
+			<Category>description</Category>
+			<ParentTags>
+				<guid>26df2188-190e-4679-abfb-e3653026858e</guid>
+			</ParentTags>
+			<Name>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Térbeli törvényszerűségek, összefüggések leírása, a tér mennyiségi viszonyainak leírása, terület- és térfogatszámítás.</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text>Description of spatial regularities and relations, description of the quantitative relations of space, calculation of area and volume.</Text>
+				</LocalizedText>
+			</Name>
+		</TagDefinition>		
 		<TagDefinition>
 			<Guid>e85aeddd-be6b-44f7-94a5-31c8c43f53e6</Guid>
 			<Id>subcategory-addition-and-subtraction</Id>
@@ -336,6 +372,24 @@
 				</LocalizedText>
 			</Name>
 		</TagDefinition>
+		<TagDefinition>
+			<Guid>5a853999-d491-4739-addb-c1239c95bcdf</Guid>
+			<Id>category-combinatorics-description</Id>
+			<Category>description</Category>
+			<ParentTags>
+				<guid>68cb8a47-6e4b-472b-829d-0aed61cc6e0c</guid>
+			</ParentTags>
+			<Name>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>Véges halmaz elemeinek csoportosítása, kiválasztása, sorrendbe rakása; permutációk, kombinációk és variációk.</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text>Grouping, selecting, sorting the elements of a finite set; permutations, combinations and variations.</Text>
+				</LocalizedText>
+			</Name>
+		</TagDefinition>		
 		<TagDefinition>
 			<Guid>39ea7501-cdb1-4944-b7dc-054511d573d8</Guid>
 			<Id>subcategory-in-how-many-ways</Id>
@@ -654,6 +708,24 @@
 				</LocalizedText>
 			</Name>
 		</TagDefinition>
+		<TagDefinition>
+			<Guid>9a65de8e-3373-40ca-9261-ebd3b4dd882f</Guid>
+			<Id>category-matriculation-description</Id>
+			<Category>description</Category>
+			<ParentTags>
+				<guid>05e1d23d-04cc-46d1-97d8-b33889a14bfe</guid>
+			</ParentTags>
+			<Name>
+				<LocalizedText>
+					<Culture>hu-HU</Culture>
+					<Text>A középiskolai tanulmányokat lezáró és a felsőoktatásba bebocsátó vizsgára való felkészülést segítő feladatok.</Text>
+				</LocalizedText>
+				<LocalizedText>
+					<Culture>en-US</Culture>
+					<Text>Questions to help you prepare for the exam that completes your high school studies and admits you to higher education.</Text>
+				</LocalizedText>
+			</Name>
+		</TagDefinition>				
 		<TagDefinition>
 			<Guid>c609d688-cbb2-433a-b874-8cdc5ea3b56c</Guid>
 			<Id>subcategory-matriculation-2001</Id>
