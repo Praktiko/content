@@ -12,7 +12,7 @@
 			<Order>2</Order>
 			<Name>Mathematics.Algebra</Name>
 			<Filename>Mathematics.Algebra.xml</Filename>
-			<HideInProduction>true</HideInProduction>
+			<HideInProduction>false</HideInProduction>
 			<Prices>
 				<Price>
 					<Culture>hu-HU</Culture>
@@ -25,19 +25,19 @@
 			<Order>3</Order>
 			<Name>Mathematics.Combinatorics</Name>
 			<Filename>Mathematics.Combinatorics.xml</Filename>
-			<HideInProduction>true</HideInProduction>
+			<HideInProduction>false</HideInProduction>
 		</Package>
 		<Package>
 			<Order>4</Order>
 			<Name>Mathematics.Matriculation</Name>
 			<Filename>Mathematics.Matriculation.xml</Filename>
-			<HideInProduction>true</HideInProduction>
+			<HideInProduction>false</HideInProduction>
 		</Package>
 		<Package>
 			<Order>5</Order>
 			<Name>Mathematics.ZseniLeszek</Name>
 			<Filename>Mathematics.ZseniLeszek.xml</Filename>
-			<HideInProduction>true</HideInProduction>
+			<HideInProduction>false</HideInProduction>
 		</Package>
 	</Packages>
 </SettingsRepo>
